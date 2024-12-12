@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+p {
+  text-align: start;
+}
+#menu button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Fondo para el menú */
+#menu {
+  background-image: url("./images/menu.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fondo para la primera parte de la historia */
+.historia-1 {
+  background-image: url("./images/fondo-parte-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fondo para la segunda parte de la historia */
+.historia-2 {
+  background-image: url("./images/fondo-parte-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fondo para la tercera parte de la historia */
+.historia-3 {
+  background-image: url("./images/fondo-parte-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pagina-numero {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#libro-titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+#salir {
+  background-color: #666;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#salir:hover {
+  background-color: #888;
+}
+
+.fondo {
+  background-size: cover;
+}
